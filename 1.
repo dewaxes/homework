@@ -1,0 +1,30 @@
+##HOMEWORK NUM: 1. 
+#include <iostream>
+using namespace std;
+int main()
+{
+    //1 задание
+    cout << "Y lykomoriya\n\n";
+    cout << "Y lykomoriya dub zeleniy;" << endl;
+    cout << "Zlatay chep na dybe tom" << endl;
+    cout << "I dnem i nochy cot ycheniy. vse hodit po chepi krygom;" << endl;
+
+    //2 задание
+    cout << "Every hunter wants\n\n";
+    cout << "\tKazdiy" << endl;
+    cout << "\t\tOhotnik" << endl;
+    cout << "\t\t\tZelaet" << endl;
+    cout << "\t\t\t\tZnat'" << endl;
+    cout << "\t\t\t\t\tGge ze" << endl;
+    cout << "\t\t\t\t\t\tSidit" << endl;
+    cout << "\t\t\t\t\t\t\tPhazan" << endl;
+
+    //3 задание
+    cout << "prodam PC\n\n";
+    cout << "Tel.: 8(988)-544-41-82" << endl;
+    cout << "Proc      " << char(179) << "ryzen 5 3600 6-core" << char(179) << endl;
+    cout << "Гараж'      " << char(179) << "Sell Garage. Chena DOGOVORNAYA" << char(179) << endl;
+    cout << "video     " << char(179) << "23124032103120 rtx 2032031 syperx" << char(179) << endl;
+    cout << "sefad    " << char(179) << "ledyanaya svezost" << char(179) << endl;
+
+}
