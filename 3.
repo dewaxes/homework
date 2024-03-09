@@ -1,0 +1,74 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+//1
+ int num;
+ cout << "Vvedite num ";
+ cin >> num;
+ int num6 = num % 10;
+ int num5 = num % 100 / 10;
+ int num4 = num % 1000 / 100;
+ int num3 = num % 10000 / 1000;
+ int num2 = num % 100000 / 10000;
+ int num1 = num % 1000000 / 100000;
+ if (num <= 999999 && num > 99999) {
+ if (num1 + num2 + num3 == num4 + num5 + num6)
+ cout << "luck num";
+ else
+ cout << "ne luck num";
+    }
+ else cout << "net 6 simvolov";
+
+//2
+ int num;
+ cout << "vvedite 4-x chislo ";
+ cin >> num;
+ if (num < 1000 or num > 9999) {
+ cout << "ne pravda." << endl;
+    }
+ int num1 = num % 10000 / 1000;
+ int num2 = num % 1000 / 100;
+ int num3 = num % 100 / 10;
+ int num4 = num % 10;
+ cout << (num2 * 1000) + (num1 * 100) + (num3 * 10) + num4;
+
+//3
+ int num1, num2, num3, num4, num5, num6, num7;
+ cout << "vvedite 7 chisel" << endl;
+ cin >> num1 >> num2 >> num3 >> num4 >> num5 >> num6 >> num7;
+ int max = num1;
+ if (num1 > max)
+ max = num1;
+ if (num2 > max)
+ max = num2;
+ if (num3 > max)
+ max = num3;
+ if (num4 > max)
+ max = num4;
+ if (num5 > max)
+ max = num5;
+ if (num6 > max)
+ max = num6;
+ if (num7 > max)
+ max = num7;
+ cout << "max = " << max << endl;
+//4
+ int pyt1, pyt2, v;
+ cout << "rasstoyanie A do B " << endl;
+ cin >> pyt1;
+ cout << "rasstoyanie B do C" << endl;
+ cin >> pyt2;
+ cout << "Massy " << endl;
+ cin >> v;
+ if (v < 500)
+ cout << "trebyetsya " << pyt1 + pyt2 << " litrov" << endl;
+ else if (v > 500 && v <= 1000)
+ cout << "trebyetsya " << (pyt1 + pyt2) / 4 << " litrov" << endl;
+ else if (v > 1000 && v <= 1500)
+ cout << "trebyetsya " << (pyt1 + pyt2) / 7 << " litrov" << endl;
+ else if (v > 1500 && v <= 2000)
+ cout << "trebyetsya " << (pyt1 + pyt2) / 9 << " litrov" << endl;
+ else
+ cout << "ne doletit!" << endl;
+}
