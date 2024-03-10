@@ -1,0 +1,119 @@
+#include <iostream>
+using namespace std;
+int main() {
+    setlocale(LC_ALL, "RU");
+    /*1*/
+//    int count = 0;
+//    for (int i = 100; i < 1000; i++) {
+//        int hundreds = i / 100;
+//        int tens = (i / 10) % 10;
+//        int ones = i % 10;
+//        if (hundreds == tens || hundreds == ones || tens == ones) {
+//            count++; // Если две цифры совпадают, увеличьте количество
+//        }
+//    }
+//    cout << "Количество целых чисел в диапазоне от 100 до 999, у которых есть две одинаковые цифры: " << count << endl;
+//    return 0;
+//}
+// 	   /*2*/
+//    int count = 0;
+//    for (int i = 100; i < 1000; i++) {
+//        int hundreds = i / 100;
+//        int tens = (i / 10) % 10;
+//        int ones = i % 10;
+//        if (hundreds != tens && hundreds != ones && tens != ones) {
+//            count++;
+//        }
+//    }
+//    cout << "Количество целых чисел в диапазоне от 100 до 999 включительно, которые содержат все различные цифры:  " << count << endl;
+//    return 0;
+//}
+    /*3*/
+//int main() {
+//    setlocale(LC_ALL, "RU");
+//    int a;
+//    int b = 0;
+//    int c = 1;
+//    cout << "Введите число: ";
+//    cin >> a;
+//    while (a != 0) {
+//        int digit = a % 10;
+//        if (digit != 3 && digit != 6) {
+//            b += digit * c;
+//            c *= 10;
+//        }
+//        a /= 10;
+//    }
+//    cout << "Число после удаления 3 и 6: " << b << endl;
+//    return 0; 
+//}
+    /*4*/
+//	{
+//		int a, b;
+//		cout << "Введите свое число: ";
+//		cin >> a;
+//		for (int i = a - 1; i > 1; i--)
+//		{
+//			b = i;
+//			if ((a % (b * b) == 0) && (a % (b * b * b) != 0))
+//			{
+//				cout << b << endl;
+//			}
+//		}
+//		return 0;
+//	}
+//}
+    /*5*/
+    //    int a, sum = 0, b;
+    //    cout << "Введите А: ";
+    //    cin >> a;
+    //    b = a;
+    //    while (b) {
+    //        sum += b % 10;
+    //        b /= 10;
+    //    }
+
+    //    int cub = sum * sum * sum;
+    //    if (cub == a * a) {
+    //        cout << "Сумма кубов равна A^2" << endl;
+    //    }
+    //    else {
+    //        cout << "Нет решения" << endl;
+    //    }
+    //    return 0;
+    //}
+    /*6*/
+//    int a;
+//    cout << "Введите целое число: ";
+//    cin >> a;
+//    cout << "Целые числа на которые " << a << " делится без остатка: ";
+//    for (int i = 1; i <= a; ++i) {
+//        if (a % i == 0) {
+//            cout << i << " ";
+//        }
+//    }
+//    cout << endl;
+//    return 0;
+//}
+    /*7*/
+//    int a;
+//    int b; 
+//    cout << "Введите 1 целое число: ";
+//    cin >> a;
+//    cout << "Введите 2 целое число: ";
+//    cin >> b;
+//    cout << "Целые числа на которые " << a << " делится без остатка: " << endl;
+//    for (int i = 1; i <= a; ++i) {
+//        if (a % i == 0) {
+//            cout << i << " " << endl;
+//        }
+//    }
+//    cout << "Целые числа на которые " << b << " делится без остатка: " << endl;
+//    for (int i = 1; i <= b; ++i) {
+//        if (b % i == 0) {
+//            cout << i << " " << endl;
+//        }
+//    }
+//    cout << endl;
+//    return 0;
+//}
